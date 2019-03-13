@@ -1,5 +1,5 @@
 {
-  "name": "@reshuttle/server",
+  "name": "@fullstackapp/server",
   "version": "1.0.0",
   "private": true,
   "scripts": {
