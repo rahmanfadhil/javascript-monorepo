@@ -1,0 +1,28 @@
+{
+  "name": "@reshuttle/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development node server",
+    "build": "next build",
+    "start:prod": "NODE_ENV=production node server"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.9",
+    "@emotion/styled": "^10.0.9",
+    "next": "^8.0.3",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}

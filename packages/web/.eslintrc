@@ -1,0 +1,10 @@
+{
+  "extends": ["../../.eslintrc", "plugin:react/recommended"],
+  "env": { "browser": true },
+  "parserOptions": {
+    "ecmaFeatures": { "jsx": true }
+  },
+  "rules": {
+    "react/prop-types": "off"
+  }
+}

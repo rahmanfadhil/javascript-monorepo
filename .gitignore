@@ -1,0 +1,8 @@
+node_modules
+.next
+*.sqlite3
+.DS_Store
+*.log
+logs
+coverage
+package-lock.json

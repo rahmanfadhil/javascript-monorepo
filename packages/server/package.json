@@ -1,0 +1,32 @@
+{
+  "name": "@reshuttle/server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development nodemon -w src -x babel-node src"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "bcrypt": "^3.0.4",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.0",
+    "knex": "^0.16.3",
+    "lodash": "^4.17.11",
+    "objection": "^1.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "dotenv": "^7.0.0",
+    "nodemon": "^1.18.10",
+    "pretty-error": "^2.1.1",
+    "sqlite3": "^4.0.6"
+  }
+}
